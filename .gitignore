@@ -1,4 +1,4 @@
-models/
+models/*
 *.pyc
 logs/
 !models/AE_model_pretrained.data-00000-of-00001

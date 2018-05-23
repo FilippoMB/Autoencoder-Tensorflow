@@ -40,7 +40,7 @@ g2 = make_AEgraph(ae_layout=[input_size,5,2,5,input_size],
 trainAE(Xtr,
        Xval,
        batch_size=25,
-       num_epochs=300,
+       num_epochs=1000,
        dropout_prob = 0.0,
        save_id='id1',
        input_graph=g1)
@@ -54,7 +54,7 @@ plt.show()
 trainAE(Xtr,
        Xval,
        batch_size=25,
-       num_epochs=2000,
+       num_epochs=1000,
        dropout_prob = 0.0,
        save_id='id2',
        input_graph=g2)
