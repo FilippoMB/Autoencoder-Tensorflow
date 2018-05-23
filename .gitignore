@@ -1,3 +1,6 @@
 models/
 *.pyc
 logs/
+!models/AE_model_pretrained.data-00000-of-00001
+!models/AE_model_pretrained.index
+!models/AE_model_pretrained.meta
